@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  flex-basis: row;
+  width: 100%;
+
+  Nav {
+    width: 50px;
+  }
+
+  .content {
+    flex-grow: 1;
+
+    webview {
+      height: calc(100vh - 50px);
+      width: 100%;
+    }
+  }
+}

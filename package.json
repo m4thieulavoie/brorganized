@@ -1,0 +1,41 @@
+{
+  "name": "brorgazined",
+  "version": "0.1.0",
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "@types/react": "^16.9.2",
+    "material-colors": "^1.2.6",
+    "node-sass": "^4.12.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "electron": "^6.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "electron": "electron .",
+    "desktop": "npm start && npm run electron",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
